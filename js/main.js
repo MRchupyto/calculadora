@@ -1,4 +1,7 @@
 function calcular() {
-    var operacion = document.getElementById('operacion').value
-    alert('Voy a: '+operacion);
+    var valor1 = document.getElementById('valor1').value
+    var valor2 = document.getElementById('valor2').value
+    var operacion = document.getElementById('operaciones').value
+
+    alert('Voy a: '+operacion+' los valores '+valor1+' y '+valor2);
 }
